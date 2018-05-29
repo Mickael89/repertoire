@@ -1,0 +1,167 @@
+.select {
+  margin-left: 140px;
+}
+
+.menu {
+  	background-image: url(images/iphone.png);
+  	height:898px;
+  	width:470px;
+  	margin:auto;
+}
+
+.ecran {
+  background-image: url(images/iphone6.jpg);
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  margin-top: 25px;
+  margin-left: 41px;
+  width: 485px;
+}
+
+.menu-select {
+	display:block;
+  	padding-top: 50px;
+}
+
+.bouton {
+	height:66px;
+	width:66px;
+	margin-left:202px;
+	margin-top:725px;
+	background-image: url('images/bouton.png');
+  position: absolute;
+  vertical-align: baseline;
+}
+#allbouton{
+
+}
+
+p {
+  line-height: 2px;
+}
+
+form {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: baseline;
+display: flex;
+bottom: 500px;
+left: 70px;
+position: relative;
+}
+
+#span_liste {
+width: 200px;
+Overflow: -Moz-Scrollbars-Vertical;
+border: 1px solid;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 400px;
+margin-left: 90px;
+}
+
+#nombre_contacte {
+width: 200px;
+height: 200px;
+line-height: 25px;
+display: flex;
+flex-direction: column;
+margin-left: 100px;
+margin-top: 20px;
+}
+
+#block{
+border: 2px solid white;
+width: 80%;
+text-align: center;
+}
+
+.liste_de_nom{
+  width: 388px;
+  display: flex;
+  height: 690px;
+  flex-direction: column;
+  background-image: url('images/fondliste.jpg');
+}
+
+.liste {
+text-align: center;
+  }
+
+#icone {
+  width:20px;
+}
+.formulaire {
+width: 387px;
+height: 687px;
+justify-content: center;
+position: absolute;
+visibility: hidden;
+background: url('images/fondformulaire.jpg');
+}
+
+#iphone {
+  width: 300px;
+display: block;
+margin: auto;
+}
+
+#block:hover{
+  color:black;
+  width: 90%;
+  background-image: url(poisson.jpg);
+ background-position: center;
+ background-size: 188%;
+ border: 2px solid white;
+ transition-duration:0.6s;
+}
+
+#block {
+  background-image: url(poisson.jpg);
+  background-position: left;
+  background-size: 110%;
+     border: 2px solid white;
+      transition-duration: 0.4s;
+     width: 80%;
+}
+
+#block p:nth-child(1){
+font-size: 25px;
+  font-weight: bold;
+}
+
+#block p:nth-child(2){
+color:black;
+font-size: 25px;
+
+}
+
+#erreuroff{
+
+  width: 0px;
+  height: 0px;
+  border: 0px;
+font-size: 0px;
+  visibility:hidden;
+}
+
+#erreuron{
+  
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  font-weight: bold;
+border: 2px black solid ;
+  color:red;
+  font-size: 20px;
+  background-color: #fbf3f480;
+  visibility:visible;
+}
+
+body {
+  background-size: auto;
+  background-position: center;
+}

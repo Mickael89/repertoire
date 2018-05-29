@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>Gestionnaire de contact</title>
+    </head>
+  <body>
+    <dialog id='erreuroff' open>
+
+        <p>Contacte ajouté</p>
+      </dialog>
+    <div class="menu">
+      <div class="menu-select"/>
+        <select class="select">
+          <option value="0" selected id="depart">Que voulez vous faire?</option>
+          <option value="1" id="ajouter">Ajouter un contact</option>
+          <option value="2" id="liste">Liste des contacts</option>
+        </select>
+          <div class="bouton" type='button'/>
+        </div>
+    <div class="ecran"/>
+    <div class="formulaire">
+      <div class="liste_de_nom">
+        <button id="modifier">Modifier contact</button>
+        <button id="supprimer">Supprimer contact</button>
+        <div id="nombre_contacte">
+          <label  for="">Nom</label>
+          <input id="modif_nom" type="text" name="FGGG" value="" placeholder="">
+
+
+          <label for="">Prenom</label>
+          <input id="modif_prenom" type="text" name="GF" value="" placeholder="">
+
+
+          <label for="">Numero de telephone</label>
+          <input id="modif_num" type="text" name="DFG" value="" placeholder="">
+        </div>
+        <div class="liste">
+      <span id='span_liste'></span>
+    </div>
+        </div>
+           <form id="form">
+             <span id="span_nombre"></span>
+
+                   <label id="" for="">Nom</label>
+                   <input id="form_nom" type="text" name="" value="" placeholder="">
+
+
+                   <label for="">Prénom</label>
+                   <input id="form_prenom" type="text" name="" value="" placeholder="">
+
+
+                   <label for="">Numéro de télèphone</label>
+                   <input id="form_num" type="text" name="" value="" placeholder="">
+
+
+                   <button  id="ajout" type='button'name="button">Ajouter un contact</button>
+                   <input id="couleur_bouton" type="range" value="50" max="50" min="0" step="50">
+
+           </form>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+<script type="text/javascript" src="repertoire.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+
+  </body>
+</html>
